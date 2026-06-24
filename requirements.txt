@@ -1,6 +1,6 @@
 streamlit
 pymupdf
-chromadb
+numpy
 sentence-transformers
 transformers
 torch
