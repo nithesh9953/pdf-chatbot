@@ -342,9 +342,9 @@ while True:
 #         st.markdown(f"**Q:** {q}")
 #
 
-!streamlit run app.py &>/content/logs.txt &
+#!streamlit run app.py &>/content/logs.txt &
 
-!npm install -g localtunnel
+#!npm install -g localtunnel
 
-!lt --port 8501
+#!lt --port 8501
 
