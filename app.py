@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1t3aDkAzXUpBT1D_It8tjjhXvi7K4BkWI
 """
 
-!pip install pymupdf
+
 
 import fitz
 from google.colab import files
@@ -63,7 +63,7 @@ print("Total chunks created:", len(chunks))
 print("\n Sample chunk:\n")
 print(chunks[0]["text"])
 
-!pip install sentence-transformers
+
 
 from sentence_transformers import SentenceTransformer
 
@@ -81,7 +81,7 @@ print(" Total embeddings created:", len(chunk_embeddings))
 
 print(" One embedding vector length:", len(chunk_embeddings[0]))
 
-!pip install chromadb
+
 
 import chromadb
 
@@ -107,7 +107,6 @@ print(" All chunks stored in vector database")
 
 print(" Total records in DB:", collection.count())
 
-!pip install transformers accelerate torch
 
 from transformers import pipeline
 
@@ -221,7 +220,6 @@ while True:
 
 
 
-!pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
