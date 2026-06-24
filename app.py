@@ -13,9 +13,10 @@ import fitz
 
 #file_name = list(uploaded.keys())[0]
 
-doc = fitz.open(file_name)
+uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
 
-print("Total pages:", len(doc))
+if uploaded_file is not None:
+    doc = fitz.open(stream=uploaded_file.read(), filetype="pdf")
 
 page = doc[0]
 text = page.get_text()
