@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 
 st.set_page_config(page_title="PDF Chatbot")
-st.title("📄 PDF-Based AI Chatbot")
+st.title(" PDF-Based AI Chatbot")
 
 @st.cache_resource
 def load_models():
