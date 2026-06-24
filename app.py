@@ -10,7 +10,6 @@ Original file is located at
 
 
 import fitz
-from google.colab import files
 
 uploaded = files.upload()
 file_name = list(uploaded.keys())[0]
