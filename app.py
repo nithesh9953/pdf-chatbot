@@ -11,7 +11,6 @@ Original file is located at
 
 import fitz
 
-uploaded = files.upload()
 file_name = list(uploaded.keys())[0]
 
 doc = fitz.open(file_name)
